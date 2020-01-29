@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-tuya-lan",
-  "version": "1.5.0-rc.12",
+  "name": "homebridge-tuya-lan2",
+  "version": "1.0.0",
   "description": "Homebridge plugin for IoT devices that use Tuya Smart's platform",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/AMoo-Miki/homebridge-tuya-lan.git"
   },
-  "author": "AMoo-Miki",
+  "author": "Rayan Khan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AMoo-Miki/homebridge-tuya-lan/issues"
+    "url": "https://github.com/iRayanKhan/homebridge-tuya-lan/issues"
   },
-  "homepage": "https://github.com/AMoo-Miki/homebridge-tuya-lan#readme",
+  "homepage": "https://github.com/iRayanKhan/homebridge-tuya-lan#readme",
   "dependencies": {
     "async": "^3.1.0",
     "commander": "^3.0.1",
@@ -33,7 +33,7 @@
   "keywords": [
     "homebridge-plugin",
     "homebridge",
-    "lohas",
+    "homebridge-tuya",
     "tuya"
   ],
   "engines": {
