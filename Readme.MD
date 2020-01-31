@@ -4,9 +4,8 @@
 
 
 ## Installation
-> Not published to NPM at the moment
+``` sudo npm i -g homebridge-tuya-platform```
 
-Install using ```git clone https://github.com/iRayanKhan/homebridge-tuya-lan```
 
 
 Update the `config.json` file of your Homebridge setup, by modifying the sample configuration below. Detailed steps for getting the `id` and `key` combinations of your devices can be found on the [Setup Instructions](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Setup-Instructions) page.
@@ -16,8 +15,6 @@ Update the `config.json` file of your Homebridge setup, by modifying the sample 
 - uCoven Home
 
 
-## Updating
-Not available yet.
 
 
 ## Configurations
@@ -57,5 +54,4 @@ The configuration parameters to enable your devices would need to be added to `p
 
 > To find out which `id` belongs to which device, open the Tuya Smart app and check the `Device Information` by tapping the configuration icon of your devices; it is almost always a tiny icon on the top-right.
 
-## Credit
-https://github.com/AMoo-Miki/homebridge-tuya-lan
+
