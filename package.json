@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-tuya-lan2",
+  "name": "homebridge-tuya-platform",
   "version": "1.0.0",
   "description": "Homebridge plugin for IoT devices that use Tuya Smart's platform",
   "main": "index.js",
