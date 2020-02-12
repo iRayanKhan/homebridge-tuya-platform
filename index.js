@@ -13,6 +13,7 @@ const ConvectorAccessory = require('./lib/ConvectorAccessory');
 const GarageDoorAccessory = require('./lib/GarageDoorAccessory');
 const SimpleDimmerAccessory = require('./lib/SimpleDimmerAccessory');
 const SimpleBlindsAccessory = require('./lib/SimpleBlindsAccessory');
+const NewSimpleBlindsAccessory = require('./lib/NewSimpleBlindsAccessory');
 const SimpleHeaterAccessory = require('./lib/SimpleHeaterAccessory');
 const SimpleFanAccessory = require('./lib/SimpleFanAccessory');
 const SimpleFanLightAccessory = require('./lib/SimpleFanLightAccessory');
