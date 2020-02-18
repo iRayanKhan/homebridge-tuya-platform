@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://img.shields.io/npm/v/homebridge-tuya-platform?style=for-the-badge)](https://www.npmjs.com/package/homebridge-tuya-platform" />
     <a href="https://twitter.com/iRayanKhan">
-        <img src="https://img.shields.io/badge/Contact-@iRayanKhan-lightgrey.svg?style=flat" alt="Twitter: @iRayanKhan" />
+        <img src="https://img.shields.io/badge/Contact-@iRayanKhan-darkred.svg?style=flat" alt="Twitter: @iRayanKhan" />
     </a>
  <img src="https://img.shields.io/npm/dt/homebridge-tuya-platform?style=for-the-badge)](https://www.npmjs.com/package/homebridge-tuya-platform" />
 </p>
