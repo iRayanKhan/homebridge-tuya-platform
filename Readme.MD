@@ -1,57 +1,32 @@
- # homebridge-tuya-platform
- >Homebridge plugin for IoT devices that use Tuya Smart's platform, allowing them to be exposed to Apple's HomeKit.
- >>This plugin is based off the original [repo here](https://github.com/AMoo-Miki/homebridge-tuya-lan)
-
-
+# homebridge-tuya-platform
+ 
+<p align="center">
+    <img src="https://img.shields.io/npm/v/homebridge-tuya-platform?style=for-the-badge)](https://www.npmjs.com/package/homebridge-tuya-platform" />
+    <a href="https://twitter.com/iRayanKhan">
+        <img src="https://img.shields.io/badge/Contact-@iRayanKhan-lightgrey.svg?style=flat" alt="Twitter: @iRayanKhan" />
+    </a>
+ <img src="https://img.shields.io/npm/dt/homebridge-tuya-platform?style=for-the-badge)](https://www.npmjs.com/package/homebridge-tuya-platform" />
+</p>
+ 
+ Homebridge-tuya-platform is a homebridge plugin for devices that use the Tuya Api.
+ 
+ 
 ## Installation
-``` sudo npm i -g homebridge-tuya-platform```
+To use this plugin, you need to install [homebridge:](https://github.com/nfarina/homebridge) ```Sudo npm i -g homebridge```
 
+Next, install this plugin: ```Sudo npm i -g homebridge-tuya-platform```
 
+Finally, fill out the ```config.json``` file.
 
-Update the `config.json` file of your Homebridge setup, by modifying the sample configuration below. Detailed steps for getting the `id` and `key` combinations of your devices can be found on the [Setup Instructions](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Setup-Instructions) page.
+## Contributing & Issue reporting
 
-## Working Apps:
-> Current apps working to get device ID's:
-- uCoven Home
+If you would like to contribute to this plugin, just make a fork, then publish a PR, I will merge it as soon as I can test it.
 
+If you run into any issues, check the [common issues wiki page](link), before opening an issue. 
 
-
-
-## Configurations
-The configuration parameters to enable your devices would need to be added to `platforms` section of the Homebridge configuration file. Examples of device configs can be found on the [Supported Devices](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Supported-Devices) page. Check out the [Common Problems](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Common-Problems) page for solutions or raise an issue if you face problems.
-```json5
-{
-    ...
-    "platforms": [
-        ...
-        /* The block you need to enable this plugin */
-        {
-            "platform": "TuyaLan",
-            "devices": [
-                /* The block you need for each device */
-                {
-                    "name": "Hallway Light",
-                    "type": "SimpleLight",
-                    "manufacturer": "Cotify",
-                    "model": "Smart Wifi Bulb Socket E26",
-                    "id": "011233455677899abbcd",
-                    "key": "0123456789abcdef"
-                }
-                /* End of the device definition block */ 
-            ]
-        }
-        /* End of the block needed to enable this plugin */
-    ]
-    ...
-}
-```
-#### Parameters
-* `name` (required) is anything you'd like to use to identify this device. You can always change the name from within the Home app.
-* `type` (required) is a case-insensitive identifier that lets the plugin know how to handle your device. Find your device `type` on the [Supported Devices](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Supported-Devices) page.
-* `manufacturer` and `model` are anything you like; the purpose of them is to help you identify the device.
-* `id` (required) and `key` (required) are parameters for your device. If you don't have them, follow the steps found on the [Setup Instructions](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Setup-Instructions) page.
-* `ip` needs to be added **_only_** if you face discovery issues. See [Common Problems](https://github.com/AMoo-Miki/homebridge-tuya-lan/wiki/Common-Problems) for more details.   
-
-> To find out which `id` belongs to which device, open the Tuya Smart app and check the `Device Information` by tapping the configuration icon of your devices; it is almost always a tiny icon on the top-right.
-
-
+## Credits
+This plugin is heavily based off contributors, listed below:
+- [Original plugin](https://github.com/AMoo-Miki/homebridge-tuya-lan) by [Amoo-Miki](https://github.com/AMoo-Miki)
+- Config presence check by [Codyc1515](https://github.com/codyc1515)
+- Fan controller support by [Murch1](https://github.com/murch1)
+- Water value support by [Nitaybz](https://github.com/nitaybz)
