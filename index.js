@@ -35,6 +35,7 @@ const CLASS_DEF = {
     garagedoor: GarageDoorAccessory,
     simpledimmer: SimpleDimmerAccessory,
     simpleblinds: SimpleBlindsAccessory,
+    newsimpleblinds: NewSimpleBlindsAccessory,
     simpleheater: SimpleHeaterAccessory,
     fan: SimpleFanAccessory,
     fanlight: SimpleFanLightAccessory,
