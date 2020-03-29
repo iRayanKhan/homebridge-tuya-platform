@@ -9,8 +9,8 @@
 
 # Installation
 0) Install Homebridge:   ```sudo npm i -g homebridge --unsafe-perm```
-1) Install this plugin: ```sudo npm i -g homebridge-tuya-platform
-```      
+1) Install this plugin: ```sudo npm i -g homebridge-tuya-platform```
+
 2) Add the [config parameters](https://github.com/iRayanKhan/homebridge-chamberlain/blob/master/config-example.MD) to your [config.json](https://github.com/nfarina/homebridge/blob/master/config-sample.json) file.
 
 
