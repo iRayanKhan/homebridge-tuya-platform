@@ -1,4 +1,6 @@
 # homebridge-tuya-platform
+# THIS PLUGIN HAS MOVED:
+Go to: https://github.com/iRayankhan/homebridge-tuya
 > Homebridge plugin for Tuya devices.
 
 [![npm](https://badgen.net/npm/v/homebridge-tuya-platform/latest)](https://www.npmjs.com/package/homebridge-tuya-platform) 
